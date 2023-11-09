@@ -1,0 +1,18 @@
+{
+  "name": "act-android-release",
+  "version": "1.0.0",
+  "description": "Create android app release for Gitea/Forgejo using general package registry and release of Git tag",
+  "main": "dist/index.js",
+  "scripts": {
+    "release": "esbuild src/act-android-release.js --bundle --minify --platform=node --target=node12.20 --outfile=dist/index.js"
+  },
+  "keywords": [],
+  "author": "yogpstop",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.19.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

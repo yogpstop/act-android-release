@@ -1,0 +1,6 @@
+name: 'Create android app release for Gitea/Forgejo'
+author: 'yogpstop'
+description: 'Create android app release for Gitea/Forgejo using general package registry and release of Git tag'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
